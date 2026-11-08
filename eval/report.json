@@ -1,0 +1,213 @@
+{
+  "dataset_size": 40,
+  "gold_skill_count": 142,
+  "dataset_by_language": [
+    {
+      "language": "ar",
+      "cv_count": 16
+    },
+    {
+      "language": "en",
+      "cv_count": 14
+    },
+    {
+      "language": "mixed",
+      "cv_count": 10
+    }
+  ],
+  "extraction": [
+    {
+      "name": "B1. Naive keyword ATS (English, substring)",
+      "precision": 0.931,
+      "recall": 0.57,
+      "f1": 0.707,
+      "tp": 81,
+      "fp": 6,
+      "fn": 61,
+      "by_language": [
+        {
+          "language": "ar",
+          "precision": 0.929,
+          "recall": 0.265,
+          "f1": 0.413,
+          "tp": 13,
+          "fp": 1,
+          "fn": 36
+        },
+        {
+          "language": "en",
+          "precision": 0.922,
+          "recall": 0.922,
+          "f1": 0.922,
+          "tp": 47,
+          "fp": 4,
+          "fn": 4
+        },
+        {
+          "language": "mixed",
+          "precision": 0.955,
+          "recall": 0.5,
+          "f1": 0.656,
+          "tp": 21,
+          "fp": 1,
+          "fn": 21
+        }
+      ]
+    },
+    {
+      "name": "B2. Tuned English ATS (forms + word boundary)",
+      "precision": 0.989,
+      "recall": 0.627,
+      "f1": 0.767,
+      "tp": 89,
+      "fp": 1,
+      "fn": 53,
+      "by_language": [
+        {
+          "language": "ar",
+          "precision": 1.0,
+          "recall": 0.327,
+          "f1": 0.492,
+          "tp": 16,
+          "fp": 0,
+          "fn": 33
+        },
+        {
+          "language": "en",
+          "precision": 0.98,
+          "recall": 0.961,
+          "f1": 0.97,
+          "tp": 49,
+          "fp": 1,
+          "fn": 2
+        },
+        {
+          "language": "mixed",
+          "precision": 1.0,
+          "recall": 0.571,
+          "f1": 0.727,
+          "tp": 24,
+          "fp": 0,
+          "fn": 18
+        }
+      ]
+    },
+    {
+      "name": "B3. Bilingual, no normalization (ablation)",
+      "precision": 0.985,
+      "recall": 0.951,
+      "f1": 0.968,
+      "tp": 135,
+      "fp": 2,
+      "fn": 7,
+      "by_language": [
+        {
+          "language": "ar",
+          "precision": 0.978,
+          "recall": 0.898,
+          "f1": 0.936,
+          "tp": 44,
+          "fp": 1,
+          "fn": 5
+        },
+        {
+          "language": "en",
+          "precision": 0.98,
+          "recall": 0.961,
+          "f1": 0.97,
+          "tp": 49,
+          "fp": 1,
+          "fn": 2
+        },
+        {
+          "language": "mixed",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 42,
+          "fp": 0,
+          "fn": 0
+        }
+      ]
+    },
+    {
+      "name": "C4H. Chance4Hire (bilingual + normalization)",
+      "precision": 0.986,
+      "recall": 0.986,
+      "f1": 0.986,
+      "tp": 140,
+      "fp": 2,
+      "fn": 2,
+      "by_language": [
+        {
+          "language": "ar",
+          "precision": 0.98,
+          "recall": 1.0,
+          "f1": 0.99,
+          "tp": 49,
+          "fp": 1,
+          "fn": 0
+        },
+        {
+          "language": "en",
+          "precision": 0.98,
+          "recall": 0.961,
+          "f1": 0.97,
+          "tp": 49,
+          "fp": 1,
+          "fn": 2
+        },
+        {
+          "language": "mixed",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 42,
+          "fp": 0,
+          "fn": 0
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "ar-social-trap",
+      "lang": "ar",
+      "false_positives": [
+        "Communication"
+      ],
+      "false_negatives": []
+    },
+    {
+      "id": "en-fullstack",
+      "lang": "en",
+      "false_positives": [],
+      "false_negatives": [
+        "Web Development"
+      ]
+    },
+    {
+      "id": "en-rest-trap",
+      "lang": "en",
+      "false_positives": [
+        "REST API"
+      ],
+      "false_negatives": [
+        "Teamwork"
+      ]
+    }
+  ],
+  "latency": {
+    "keyword": {
+      "avg_ms": 0.3,
+      "p95_ms": 0.3,
+      "runs": 120
+    },
+    "transformer": {
+      "avg_ms": 530.5,
+      "p95_ms": 1058.2,
+      "runs": 120
+    }
+  },
+  "default_engine": "transformer"
+}

@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-multipart>=0.0.9
+
+# --- PDF text extraction (Arabic-aware) ---
+# PyMuPDF preserves the logical order of Arabic multi-word phrases far better than
+# pdfplumber (12/13 vs 8/13 skills recovered on a Word-exported Arabic CV).
+PyMuPDF>=1.24
+
+# --- NLP (Transformer) engine ---
+# CPU is enough for the prototype. On Windows/Linux `pip install torch` pulls a
+# CPU wheel from PyPI by default. First run downloads the sentence model (~470MB)
+# to the HuggingFace cache; after that it works offline.
+# Ranges (not exact pins) so it resolves across Python versions — e.g. Python
+# 3.13 needs torch >= 2.6.
+sentence-transformers>=3.3.1
+torch>=2.6.0
+numpy>=2.1,<3

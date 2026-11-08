@@ -1,0 +1,784 @@
+[
+  {
+    "id": "ar-backend",
+    "lang": "ar",
+    "cv_text": "مهندس برمجيات لديه خبرة في C# و ASP.NET Core و Entity Framework و SQL Server، وبناء واجهات Blazor، ويعمل ضمن فريق بروح عالية.",
+    "expected_skills": [
+      "C#",
+      "ASP.NET Core",
+      "Entity Framework",
+      "SQL",
+      "Blazor",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "C#",
+      "ASP.NET Core",
+      "React",
+      "Docker"
+    ],
+    "expected_covered": [
+      "C#",
+      "ASP.NET Core"
+    ]
+  },
+  {
+    "id": "ar-ai",
+    "lang": "ar",
+    "cv_text": "باحث في الذكاء الاصطناعي، خبرة في معالجة اللغة الطبيعية وتعلم الآلة وتحليل البيانات باستخدام Python.",
+    "expected_skills": [
+      "NLP",
+      "Machine Learning",
+      "Data Analysis",
+      "Python"
+    ],
+    "job_skills": [
+      "Machine Learning",
+      "NLP",
+      "Python",
+      "Java"
+    ],
+    "expected_covered": [
+      "Machine Learning",
+      "NLP",
+      "Python"
+    ]
+  },
+  {
+    "id": "ar-mobile",
+    "lang": "ar",
+    "cv_text": "مطوّر تطبيقات الموبايل، خبرة خمس سنوات في برمجة تطبيقات الهاتف، مع إدارة المشاريع الصغيرة واستخدام Git.",
+    "expected_skills": [
+      "Mobile Development",
+      "Project Management",
+      "Git"
+    ],
+    "job_skills": [
+      "Mobile Development",
+      "Git",
+      "Java"
+    ],
+    "expected_covered": [
+      "Mobile Development",
+      "Git"
+    ]
+  },
+  {
+    "id": "ar-frontend",
+    "lang": "ar",
+    "cv_text": "مطوّر واجهات أمامية يتقن Angular و JavaScript، وله مشاريع في تطوير الويب والتعامل مع قواعد البيانات.",
+    "expected_skills": [
+      "Angular",
+      "JavaScript",
+      "Web Development",
+      "SQL"
+    ],
+    "job_skills": [
+      "Angular",
+      "JavaScript",
+      "React"
+    ],
+    "expected_covered": [
+      "Angular",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "ar-tashkeel",
+    "lang": "ar",
+    "cv_text": "مُهَنْدِسُ بَيَانَاتٍ مُتَخَصِّصٌ فِي تَحْلِيلِ البَيَانَاتِ وَالتَّعَلُّمِ الآلِيِّ، وَلَدَيْهِ خِبْرَةٌ فِي بَايْثُون.",
+    "expected_skills": [
+      "Data Analysis",
+      "Machine Learning",
+      "Python"
+    ],
+    "job_skills": [
+      "Data Analysis",
+      "Python"
+    ],
+    "expected_covered": [
+      "Data Analysis",
+      "Python"
+    ],
+    "note": "fully vowelled Arabic - exercises diacritic stripping"
+  },
+  {
+    "id": "ar-hamza",
+    "lang": "ar",
+    "cv_text": "خبرة فى إدارة المشاريع البرمجية وفي معالجه اللغه الطبيعيه، مع اهتمام بأمن المعلومات والعمل الجماعى.",
+    "expected_skills": [
+      "Project Management",
+      "NLP",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "Project Management",
+      "NLP"
+    ],
+    "expected_covered": [
+      "Project Management",
+      "NLP"
+    ],
+    "note": "ya/alef-maqsura and ta-marbuta/ha written interchangeably - the commonest real-CV variation"
+  },
+  {
+    "id": "ar-prefix",
+    "lang": "ar",
+    "cv_text": "مبرمج ويب: عملت بتطوير الويب وبقواعد البيانات، والتحكم بالإصدارات، وبالعمل ضمن فريق متعدد التخصصات.",
+    "expected_skills": [
+      "Web Development",
+      "SQL",
+      "Git",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "Web Development",
+      "SQL",
+      "Git"
+    ],
+    "expected_covered": [
+      "Web Development",
+      "SQL",
+      "Git"
+    ],
+    "note": "Arabic clitics glued to the term"
+  },
+  {
+    "id": "ar-devops",
+    "lang": "ar",
+    "cv_text": "مهندس أنظمة: خبرة في الحاويات وأتمتة النشر على الحوسبة السحابية، وإدارة قواعد المعطيات.",
+    "expected_skills": [
+      "Docker",
+      "Azure",
+      "SQL"
+    ],
+    "job_skills": [
+      "Docker",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "expected_covered": [
+      "Docker",
+      "Azure"
+    ]
+  },
+  {
+    "id": "ar-arabic-nlp",
+    "lang": "ar",
+    "cv_text": "باحث دكتوراه في معالجة اللغة العربية، عمل على نماذج AraBERT للتعرف على الكيانات المسمّاة، وينشر أبحاثه بلغة بايثون.",
+    "expected_skills": [
+      "Arabic NLP",
+      "Python"
+    ],
+    "job_skills": [
+      "Arabic NLP",
+      "NLP",
+      "Machine Learning"
+    ],
+    "expected_covered": [
+      "Arabic NLP"
+    ]
+  },
+  {
+    "id": "ar-architect",
+    "lang": "ar",
+    "cv_text": "مهندس حلول: أعمل على معمارية البرمجيات وتصميم الأنظمة الموزّعة، مع خبرة في سي شارب و asp.net.",
+    "expected_skills": [
+      "Software Architecture",
+      "C#",
+      "ASP.NET Core"
+    ],
+    "job_skills": [
+      "Software Architecture",
+      "C#"
+    ],
+    "expected_covered": [
+      "Software Architecture",
+      "C#"
+    ]
+  },
+  {
+    "id": "ar-junior",
+    "lang": "ar",
+    "cv_text": "خرّيج هندسة معلوماتية حديثًا، لدي مهارات التواصل والعمل الجماعي ورغبة قوية في التعلّم، بلا خبرة عملية بعد.",
+    "expected_skills": [
+      "Communication",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "Python",
+      "SQL"
+    ],
+    "expected_covered": [],
+    "note": "soft skills only - must NOT produce technical skills"
+  },
+  {
+    "id": "ar-data",
+    "lang": "ar",
+    "cv_text": "محلل بيانات: تحليل البيانات باستخدام Python و SQL، وبناء لوحات مؤشرات، والتعامل مع postgres.",
+    "expected_skills": [
+      "Data Analysis",
+      "Python",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "job_skills": [
+      "Data Analysis",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "expected_covered": [
+      "Data Analysis",
+      "SQL",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": "ar-fullstack",
+    "lang": "ar",
+    "cv_text": "مطوّر متكامل: رياكت في الواجهة، و ASP.NET Core في الخلفية، مع REST API وتوثيقها، ودوكر للنشر.",
+    "expected_skills": [
+      "React",
+      "ASP.NET Core",
+      "REST API",
+      "Docker"
+    ],
+    "job_skills": [
+      "React",
+      "ASP.NET Core",
+      "REST API"
+    ],
+    "expected_covered": [
+      "React",
+      "ASP.NET Core",
+      "REST API"
+    ]
+  },
+  {
+    "id": "ar-pm",
+    "lang": "ar",
+    "cv_text": "مدير مشاريع تقنية: إدارة المشاريع وفق Agile، مهارات التواصل مع العملاء، وتنسيق العمل ضمن فريق من عشرة مطوّرين.",
+    "expected_skills": [
+      "Project Management",
+      "Communication",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "Project Management",
+      "Communication"
+    ],
+    "expected_covered": [
+      "Project Management",
+      "Communication"
+    ]
+  },
+  {
+    "id": "ar-empty",
+    "lang": "ar",
+    "cv_text": "أبحث عن فرصة عمل مناسبة في مدينة دمشق. مستعد للتعلّم والالتزام بمواعيد الدوام. المراجع متوفرة عند الطلب.",
+    "expected_skills": [],
+    "job_skills": [
+      "Python",
+      "SQL",
+      "Docker"
+    ],
+    "expected_covered": [],
+    "note": "no skill claimed at all - pure precision test"
+  },
+  {
+    "id": "ar-social-trap",
+    "lang": "ar",
+    "cv_text": "مسؤول تسويق رقمي: إدارة صفحات وسائل التواصل الاجتماعي وحملات الإعلانات المموّلة وتحليل البيانات التسويقية.",
+    "expected_skills": [
+      "Data Analysis"
+    ],
+    "job_skills": [
+      "Data Analysis",
+      "Communication"
+    ],
+    "expected_covered": [
+      "Data Analysis"
+    ],
+    "note": "HARD NEGATIVE: social-media phrase must not be read as the Communication skill"
+  },
+  {
+    "id": "en-fullstack",
+    "lang": "en",
+    "cv_text": "Full stack developer skilled in React, TypeScript, ASP.NET Core, SQL, Docker and Git, building responsive web apps.",
+    "expected_skills": [
+      "React",
+      "TypeScript",
+      "ASP.NET Core",
+      "SQL",
+      "Docker",
+      "Git",
+      "Web Development"
+    ],
+    "job_skills": [
+      "React",
+      "TypeScript",
+      "Docker"
+    ],
+    "expected_covered": [
+      "React",
+      "TypeScript",
+      "Docker"
+    ]
+  },
+  {
+    "id": "en-devops",
+    "lang": "en",
+    "cv_text": "DevOps engineer: Docker containers, Azure pipelines, Git branching strategies, PostgreSQL administration and REST API gateways.",
+    "expected_skills": [
+      "Docker",
+      "Azure",
+      "Git",
+      "PostgreSQL",
+      "REST API"
+    ],
+    "job_skills": [
+      "Docker",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "expected_covered": [
+      "Docker",
+      "Azure",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": "en-arch",
+    "lang": "en",
+    "cv_text": "Principal engineer focused on software architecture. Built real-time features with SignalR over a C# REST API backed by SQL Server.",
+    "expected_skills": [
+      "Software Architecture",
+      "C#",
+      "SignalR",
+      "REST API",
+      "SQL"
+    ],
+    "job_skills": [
+      "Software Architecture",
+      "SignalR",
+      "C#"
+    ],
+    "expected_covered": [
+      "Software Architecture",
+      "SignalR",
+      "C#"
+    ]
+  },
+  {
+    "id": "en-ml",
+    "lang": "en",
+    "cv_text": "Machine learning engineer. Natural Language Processing pipelines in Python, model evaluation, and data analysis at scale.",
+    "expected_skills": [
+      "Machine Learning",
+      "NLP",
+      "Python",
+      "Data Analysis"
+    ],
+    "job_skills": [
+      "Machine Learning",
+      "NLP",
+      "Python"
+    ],
+    "expected_covered": [
+      "Machine Learning",
+      "NLP",
+      "Python"
+    ]
+  },
+  {
+    "id": "en-java-trap",
+    "lang": "en",
+    "cv_text": "Frontend engineer working daily in JavaScript and TypeScript. Comfortable with React and modern web development tooling.",
+    "expected_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Web Development"
+    ],
+    "job_skills": [
+      "JavaScript",
+      "Java",
+      "React"
+    ],
+    "expected_covered": [
+      "JavaScript",
+      "React"
+    ],
+    "note": "HARD NEGATIVE: Java must not be matched inside JavaScript"
+  },
+  {
+    "id": "en-postgres-trap",
+    "lang": "en",
+    "cv_text": "Database administrator specialising in PostgreSQL replication, backups and query tuning.",
+    "expected_skills": [
+      "PostgreSQL"
+    ],
+    "job_skills": [
+      "PostgreSQL",
+      "SQL"
+    ],
+    "expected_covered": [
+      "PostgreSQL"
+    ],
+    "note": "HARD NEGATIVE: SQL must not be matched inside PostgreSQL"
+  },
+  {
+    "id": "en-rest-trap",
+    "lang": "en",
+    "cv_text": "Team lead in a product company. I mentor juniors and let the rest of the team own delivery. Strong communication skills.",
+    "expected_skills": [
+      "Teamwork",
+      "Communication"
+    ],
+    "job_skills": [
+      "Communication",
+      "REST API"
+    ],
+    "expected_covered": [
+      "Communication"
+    ],
+    "note": "HARD NEGATIVE: the ordinary English word rest must not fire the REST API skill"
+  },
+  {
+    "id": "en-mobile",
+    "lang": "en",
+    "cv_text": "Mobile development engineer, five years shipping Android apps in Java, with Git and agile project management.",
+    "expected_skills": [
+      "Mobile Development",
+      "Java",
+      "Git",
+      "Project Management"
+    ],
+    "job_skills": [
+      "Mobile Development",
+      "Java"
+    ],
+    "expected_covered": [
+      "Mobile Development",
+      "Java"
+    ]
+  },
+  {
+    "id": "en-blazor",
+    "lang": "en",
+    "cv_text": "Blazor WebAssembly developer. Entity Framework Core data access, ASP.NET Core APIs, SignalR for live updates.",
+    "expected_skills": [
+      "Blazor",
+      "Entity Framework",
+      "ASP.NET Core",
+      "SignalR"
+    ],
+    "job_skills": [
+      "Blazor",
+      "Entity Framework",
+      "SignalR"
+    ],
+    "expected_covered": [
+      "Blazor",
+      "Entity Framework",
+      "SignalR"
+    ]
+  },
+  {
+    "id": "en-angular",
+    "lang": "en",
+    "cv_text": "Angular specialist. Six years of web development, REST API integration and TypeScript across large front-end codebases.",
+    "expected_skills": [
+      "Angular",
+      "Web Development",
+      "REST API",
+      "TypeScript"
+    ],
+    "job_skills": [
+      "Angular",
+      "TypeScript"
+    ],
+    "expected_covered": [
+      "Angular",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": "en-soft",
+    "lang": "en",
+    "cv_text": "Scrum master. Project management, stakeholder communication, and teamwork across three distributed squads.",
+    "expected_skills": [
+      "Project Management",
+      "Communication",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "Project Management",
+      "Communication"
+    ],
+    "expected_covered": [
+      "Project Management",
+      "Communication"
+    ]
+  },
+  {
+    "id": "en-empty",
+    "lang": "en",
+    "cv_text": "Recent graduate seeking an entry-level position. Available immediately. References on request.",
+    "expected_skills": [],
+    "job_skills": [
+      "Python",
+      "React"
+    ],
+    "expected_covered": [],
+    "note": "no skill claimed - precision test"
+  },
+  {
+    "id": "en-cloud",
+    "lang": "en",
+    "cv_text": "Cloud engineer on Azure: containerised workloads with Docker, infrastructure as code, and PostgreSQL managed instances.",
+    "expected_skills": [
+      "Azure",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "job_skills": [
+      "Azure",
+      "Docker"
+    ],
+    "expected_covered": [
+      "Azure",
+      "Docker"
+    ]
+  },
+  {
+    "id": "en-csharp",
+    "lang": "en",
+    "cv_text": "Backend developer, csharp and ASP.NET Core, Entity Framework, SQL, and a REST API serving 2M requests a day.",
+    "expected_skills": [
+      "C#",
+      "ASP.NET Core",
+      "Entity Framework",
+      "SQL",
+      "REST API"
+    ],
+    "job_skills": [
+      "C#",
+      "SQL",
+      "REST API"
+    ],
+    "expected_covered": [
+      "C#",
+      "SQL",
+      "REST API"
+    ],
+    "note": "csharp spelling variant of C#"
+  },
+  {
+    "id": "mixed-web",
+    "lang": "mixed",
+    "cv_text": "خبرة في تطوير الويب باستخدام Python و React، والعمل ضمن فريق موزّع، ومهارات التواصل باللغتين العربية والإنكليزية.",
+    "expected_skills": [
+      "Web Development",
+      "Python",
+      "React",
+      "Teamwork",
+      "Communication"
+    ],
+    "job_skills": [
+      "Python",
+      "React",
+      "Communication"
+    ],
+    "expected_covered": [
+      "Python",
+      "React",
+      "Communication"
+    ]
+  },
+  {
+    "id": "mixed-backend",
+    "lang": "mixed",
+    "cv_text": "Software engineer — خبرة سبع سنوات في C# و ASP.NET Core، وبناء REST API، ونشرها عبر Docker على Azure.",
+    "expected_skills": [
+      "C#",
+      "ASP.NET Core",
+      "REST API",
+      "Docker",
+      "Azure"
+    ],
+    "job_skills": [
+      "C#",
+      "REST API",
+      "Azure"
+    ],
+    "expected_covered": [
+      "C#",
+      "REST API",
+      "Azure"
+    ]
+  },
+  {
+    "id": "mixed-ai",
+    "lang": "mixed",
+    "cv_text": "AI Engineer — معالجة اللغات الطبيعية و Machine Learning، بناء نماذج AraBERT للعربية، والبرمجة بـ Python.",
+    "expected_skills": [
+      "NLP",
+      "Machine Learning",
+      "Arabic NLP",
+      "Python"
+    ],
+    "job_skills": [
+      "NLP",
+      "Machine Learning",
+      "Arabic NLP"
+    ],
+    "expected_covered": [
+      "NLP",
+      "Machine Learning",
+      "Arabic NLP"
+    ]
+  },
+  {
+    "id": "mixed-data",
+    "lang": "mixed",
+    "cv_text": "Data engineer: تحليل البيانات و SQL و postgres، مع خبرة في Docker والتحكم بالإصدارات عبر Git.",
+    "expected_skills": [
+      "Data Analysis",
+      "SQL",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ],
+    "job_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "expected_covered": [
+      "SQL",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": "mixed-frontend",
+    "lang": "mixed",
+    "cv_text": "Frontend developer — رياكت و TypeScript، تصميم واجهات متجاوبة، وخبرة في تطوير المواقع.",
+    "expected_skills": [
+      "React",
+      "TypeScript",
+      "Web Development"
+    ],
+    "job_skills": [
+      "React",
+      "TypeScript",
+      "Angular"
+    ],
+    "expected_covered": [
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": "mixed-arch",
+    "lang": "mixed",
+    "cv_text": "Solutions architect — معمارية البرمجيات، تصميم الأنظمة الموزعة، SignalR للاتصال اللحظي، و Entity Framework.",
+    "expected_skills": [
+      "Software Architecture",
+      "SignalR",
+      "Entity Framework"
+    ],
+    "job_skills": [
+      "Software Architecture",
+      "SignalR"
+    ],
+    "expected_covered": [
+      "Software Architecture",
+      "SignalR"
+    ]
+  },
+  {
+    "id": "mixed-mobile",
+    "lang": "mixed",
+    "cv_text": "Mobile engineer — برمجة تطبيقات الهاتف بـ Java و Git، وإدارة المشاريع الصغيرة، والعمل الجماعي.",
+    "expected_skills": [
+      "Mobile Development",
+      "Java",
+      "Git",
+      "Project Management",
+      "Teamwork"
+    ],
+    "job_skills": [
+      "Mobile Development",
+      "Java",
+      "Git"
+    ],
+    "expected_covered": [
+      "Mobile Development",
+      "Java",
+      "Git"
+    ]
+  },
+  {
+    "id": "mixed-junior",
+    "lang": "mixed",
+    "cv_text": "Junior developer — خرّيج حديث، أساسيات JavaScript و قواعد البيانات، ومهارات التواصل جيدة.",
+    "expected_skills": [
+      "JavaScript",
+      "SQL",
+      "Communication"
+    ],
+    "job_skills": [
+      "JavaScript",
+      "SQL"
+    ],
+    "expected_covered": [
+      "JavaScript",
+      "SQL"
+    ]
+  },
+  {
+    "id": "mixed-blazor",
+    "lang": "mixed",
+    "cv_text": "NET developer — بليزر و ASP.NET Core و EF Core، مع دوكر، وخبرة في تطوير الويب.",
+    "expected_skills": [
+      "Blazor",
+      "ASP.NET Core",
+      "Entity Framework",
+      "Docker",
+      "Web Development"
+    ],
+    "job_skills": [
+      "Blazor",
+      "ASP.NET Core",
+      "Entity Framework"
+    ],
+    "expected_covered": [
+      "Blazor",
+      "ASP.NET Core",
+      "Entity Framework"
+    ]
+  },
+  {
+    "id": "mixed-lead",
+    "lang": "mixed",
+    "cv_text": "Tech lead — إدارة المشاريع وقيادة فريق من ٨ مطوّرين، معمارية البرمجيات، و C# و SQL.",
+    "expected_skills": [
+      "Project Management",
+      "Software Architecture",
+      "C#",
+      "SQL"
+    ],
+    "job_skills": [
+      "Project Management",
+      "C#",
+      "SQL"
+    ],
+    "expected_covered": [
+      "Project Management",
+      "C#",
+      "SQL"
+    ]
+  }
+]
